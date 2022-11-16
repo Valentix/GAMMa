@@ -5,3 +5,4 @@ The project aims to build a usb midi controller with arduino (I only have a nano
 This is a first version for this so it has problems and I mean a lot of problems but I already got to work and now the breadboard is here on my desk working with lmms (also opensource).
 I'm a student at Politecnico di Milano so I don't have much time to build test and so the pull request may remain request for a long time. If you want to get involved in the project just do it put a comment in the C file with your name and do your best!
 Because this is intended to use with a DAW and specifically with drums-set the name is based on the best Jazz drummers in alphabetic order for example this version is named after Rashied Ali more on him on wikipedia https://en.wikipedia.org/wiki/Rashied_Ali.
+For more informations look at he specific [README](./Versions/0.0-Ali/README.md)
