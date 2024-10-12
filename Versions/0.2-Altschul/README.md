@@ -14,9 +14,9 @@ here are the links for download~~
 
 WELL NO MORE...
 From now on this as an hardware project will have it's own driver because I realized that using not one but two outdated and dead project as basis for a new and fresh one is like trying to eat on a pile of 
-The driver will be available in another repo that will be made soon (tm).
+The driver will be available in another repo called SeToMi [here](https://github.com/Valentix/SeToMi).
 ...
-The computer will use a custom driver that I will try to make so there will be a driver folder in the "near" future. Hardware components are still the same as Allan.
+The computer will use the SeToMi driver that I will try to make so there will be a driver folder in the "near" future. Hardware components are still the same as Allan.
 Actually I will actively try to maintain the compatibility with those but it's no longer a priority.
 # OpenSource as priority
 This project is and will always be open source and under GPL licence.
@@ -29,9 +29,11 @@ This project is and will always be open source and under GPL licence.
 - some wires
 - breadboard
 - 3d printer
+- soldering iron and equipment
 ## User Requirements
 just in case you want to take a look under the hood
 - c++ understanding
+- soldering abilities
 - arduino ide familiarity
 - patience because i'm not actually a programmer
 - coffee
