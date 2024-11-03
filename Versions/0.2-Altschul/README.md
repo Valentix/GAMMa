@@ -17,10 +17,26 @@ From now on this as an hardware project will have it's own driver because I real
 The driver will be available in another repo called SeToMi [here](https://github.com/Valentix/SeToMi).
 ...
 The computer will use the SeToMi driver that I will try to make so there will be a driver folder in the "near" future. Hardware components are still the same as Allan.
-Actually I will actively try to maintain the compatibility with those but it's no longer a priority.
+Actually I will try to maintain the compatibility with those but it's no longer a priority.
 # OpenSource as priority
 This project is and will always be open source and under GPL licence.
-## Hardware required to build a prototype
+
+## Compling and Construction
+Download this repo:
+    git clone https://github.com/Valentix/GAMMa/
+...or download the zip and unpack it.
+
+You will need those programs to build your GAMMa:
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [FreeCad](https://www.freecad.org/downloads.php)
+
+# Compile Arduino Project
+In order to compile the arduino project download the leatest version of Arduino IDE connect the arduino to a usb port and open the GAMMa.ino file in the root and compile it.
+# Compile the driver
+Follow the instruction on the [SeToMi](https://github.com/Valentix/SeToMi) repo
+# Construct the Hardware
+Buy all needed parts
+* Hardware required to build a prototype
 - arduino nano: ATmega328
 - display: tm1637
 - trimmer 10Kohm
@@ -29,7 +45,13 @@ This project is and will always be open source and under GPL licence.
 - some wires
 - breadboard
 - 3d printer
-- soldering iron and equipment
+- soldering iron and wiring equipment
+While you wait for the parts to arrive download the leatest version of FreeCAD form [here](https://www.freecad.org/downloads.php) install it and open the file in the CAD folder and open the sheet called "Misure" there you will be able to set all the parameters to fit your (circular) guitar sound hole, neck...
+Export every object in the stl format.
+Now if you have a 3d printer use your software of choise and print all the parts instead if you haven't one you can order them using a 3d printing service.
+Glue the printed parts as you can see in the Cad file.
+Then solder the parts following the Schema.pdf (not yet uploaded) and build your GAMMa.
+
 ## User Requirements
 just in case you want to take a look under the hood
 - c++ understanding
